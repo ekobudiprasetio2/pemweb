@@ -1,0 +1,38 @@
+.Box {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    margin: 10px;
+    float: left;
+}
+.Box-1 {
+    background-image: url("../img/th.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.Box-2 {
+    background-image: url("../img/th\ \(1\).jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.Box-3 {
+    background-image: url("../img/th\ \(2\).jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.Box-4 {
+    background-image: url("../img/th\ \(3\).jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+img {
+    height: 150px;
+}
